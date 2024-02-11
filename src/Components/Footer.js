@@ -3,25 +3,16 @@ import '../Assets/Styles/footer.css';
 
 function Footer() {
     return (
-        <>
+        <div>
         <footer>
     <div className="footer-container">
         <div className="footer-links">
-            <h4>Pages</h4>
+            <h3>Pages</h3>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div className="footer-sitemap">
-            <h4>Sitemap</h4>
-            <ul>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="https://www.google.com">Home</a></li>
+                <li><a href="https://www.google.com">About Us</a></li>
+                <li><a href="https://www.google.com">Services</a></li>
+                <li><a href="https://www.google.com">Contact</a></li>
             </ul>
         </div>
         <div className="footer-copyright">
@@ -29,7 +20,7 @@ function Footer() {
         </div>
     </div>
 </footer>
-</>
+</div>
     );
 }
 

@@ -1,7 +1,6 @@
-footer {
-    background-color: #333;
-    color: #fff;
+.footer {
     padding: 20px 0;
+    width: 100%;
 }
 
 .footer-container {
@@ -9,34 +8,39 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
+    background-color: black;
 }
 
 .footer-links,
 .footer-sitemap {
+    color: #ffffff;
     flex: 1;
 }
 
 .footer-links ul,
 .footer-sitemap ul {
+    color: #ffffff;
     list-style: none;
     padding: 0;
 }
 
-.footer-links h4,
-.footer-sitemap h4 {
+.footer-links h3,
+.footer-sitemap h3 {
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
 .footer-links a,
 .footer-sitemap a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
-.footer-copyright p {
+.footer-copyright {
     text-align: center;
     flex-basis: 100%;
     margin-top: 20px;
+    color: #ffffff;
 }
