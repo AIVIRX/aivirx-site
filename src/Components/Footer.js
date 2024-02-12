@@ -15,6 +15,16 @@ function Footer() {
                 <li><a href="https://www.google.com">Contact</a></li>
             </ul>
         </div>
+{/*         
+        <div className="footer-sitemap">
+            <h4>Sitemap</h4>
+            <ul>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>* */}
         <div className="footer-copyright">
             <p>&copy; 2024 Your Company. All rights reserved.</p>
         </div>
