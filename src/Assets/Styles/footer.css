@@ -33,10 +33,10 @@
 }
 
 .footer-links a,
-.footer-sitemap a {
-    color: #ffffff;
-    text-decoration: none;
-}
+.footer-sitemap a {color: #ffffff;
+    text-decoration: none;}
+
+li:hover{text-decoration: underline;}
 
 .footer-copyright {
     text-align: center;
